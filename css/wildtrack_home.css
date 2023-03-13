@@ -289,9 +289,22 @@ main {
     font-family: 'Quicksand', sans-serif;
     padding-right: 0px;
     width: 202.417px;
+    font-weight: bolder;
 }
 
 #current_name:hover {
+    text-decoration: underline;
+}
+
+#current_artist {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 0px;
+    width: 202.417px;
+}
+
+#current_artist:hover {
     text-decoration: underline;
 }
 
