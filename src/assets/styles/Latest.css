@@ -1,0 +1,43 @@
+/* Define styling for elements with the class 'card' */
+.card {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif; /* Note: The second 'font-family' declaration will override the first one */
+    background: rgb(8, 8, 8);
+    background: linear-gradient(137deg, rgba(8, 8, 8, 1) 34%, rgba(44, 44, 45, 1) 100%, rgba(145, 145, 145, 1) 100%);
+    color: white;
+    max-width: 100%; 
+    max-height: auto; 
+    margin: 25px 23px;
+}
+
+/* Define styling for elements with the id 'latestImg' */
+#latestImg {
+    height: auto; 
+    width: 100%;
+}
+
+/* Media query for screens with a minimum width of 769px */
+@media (min-width: 769px) {
+    #latestImg {
+        max-width: 250px;
+    }
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    /* Adjust styling for elements with the class 'latest-container' */
+    .latest-container {
+        padding: 15px; 
+    }
+
+    /* Adjust styling for elements with the class 'latest-card' */
+    .latest-card {
+        border: none; 
+    }
+
+    /* Adjust styling for elements with the class 'latest-image' */
+    .latest-image {
+        width: 100%; 
+        max-width: none;
+    }
+}

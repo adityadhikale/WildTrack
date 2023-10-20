@@ -1,0 +1,11 @@
+/* Define styling for elements with the class 'card' */
+.card {
+    background: rgb(8, 8, 8);
+    background: linear-gradient(137deg, rgba(8, 8, 8, 1) 34%, rgba(44, 44, 45, 1) 100%, rgba(145, 145, 145, 1) 100%);
+    color: white;
+}
+
+/* Define styling for elements with the id 'cardImg' */
+#cardImg {
+    width: 100%;
+}

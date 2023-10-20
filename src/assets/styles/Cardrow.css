@@ -1,0 +1,23 @@
+/* Define styling for elements with the class 'cards' */
+.cards {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Define styling for elements with the class 'row' within elements with the class 'cards' */
+.cards .row {
+    justify-content: center;
+}
+
+/* Define styling for elements with the class 'col' within elements with the class 'cards' */
+.cards .col {
+    margin-bottom: 20px;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    /* Adjust the number of columns for elements with the class 'row' within elements with the class 'cards' */
+    .cards .row {
+        row-cols: 1;
+    }
+}
