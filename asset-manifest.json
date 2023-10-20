@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WildTrack/static/css/main.830e241f.css",
+    "main.js": "/WildTrack/static/js/main.d7b24975.js",
+    "static/media/music.jpeg": "/WildTrack/static/media/music.f6e5851bee2f580cc13c.jpeg",
+    "static/media/search.png": "/WildTrack/static/media/search.6f4d5530e375351ad8b2.png",
+    "index.html": "/WildTrack/index.html",
+    "main.830e241f.css.map": "/WildTrack/static/css/main.830e241f.css.map",
+    "main.d7b24975.js.map": "/WildTrack/static/js/main.d7b24975.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.830e241f.css",
+    "static/js/main.d7b24975.js"
+  ]
+}
